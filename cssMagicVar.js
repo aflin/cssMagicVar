@@ -1,4 +1,4 @@
-/* cssMagicVar v 0.1 copyright 2017 Aaron Flin (aaron at flin dot org) 
+/* cssMagicVar v 0.1 copyright 2018 Aaron Flin (aaron at flin dot org) 
    MIT Licensed                                                            */
 var cssMagicVar={
 	observed:[]
