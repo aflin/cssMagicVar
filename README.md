@@ -27,3 +27,5 @@ Usage:
 ```
 
 all .myotherdivs width will be dynamically updated to be the same as #mydiv, even as #mydiv changes.
+
+Included demo requires jquery, but basic usage does not.
