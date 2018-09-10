@@ -27,5 +27,3 @@ Usage:
 ```
 
 all .myotherdivs width will be dynamically updated to be the same as #mydiv, even as #mydiv changes.
-
-Included demo (index.html) requires jquery, but basic usage does not. jquery.ui.touch-punch.min.js is also included for the demo to allow resizable when on mobile.
