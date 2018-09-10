@@ -13,16 +13,16 @@ Usage:
 ## Add css with Magic Vars:
 ```
 :root {
-        --box1width: magic: #mydiv ( width  );
+        --mydivwidth: magic: #mydiv ( width  );
 }
 ```
 
---box1width will be set to the width of #mydiv.
+--mydivwidth will be set to the width of #mydiv.
 
 ## Add the variable to another css declaration:
 ```
 .myotherdivs {
-  width: var(--box1width);
+  width: var(--mydivwidth);
 }
 ```
 
