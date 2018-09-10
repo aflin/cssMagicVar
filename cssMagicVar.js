@@ -70,23 +70,20 @@ cssMagicVar.load = function () {
 			for (var j=0;j<magics.length;j++) {
 				var m=magics[j], sel=m.match(/(\-\-[^:\s]+)\s*:\s*magic\s*:\s*([^\(\s]+)\s*\(\s*([^\)\s+]+)\s*\)/);
 				if (sel.length>3) {
-					var 	el, 
-						//matchtext=sel[0],
+					var 	el,
 						cssvar=sel[1],
 						id=sel[2],
 						prop=sel[3],
 						fc=id.substr(0,1);
 
-						switch(fc) {
-							case '#':
-								el=document.getElementById(id.substr(1));break;
-							case '.':
-								el=document.getElementsByClassName(id.substr(1))[0];break;
-							default:
-								el=document.getElementsByTagName(id)[0];
-						}
-					
-					
+					switch(fc) {
+						case '#':
+							el=document.getElementById(id.substr(1));break;
+						case '.':
+							el=document.getElementsByClassName(id.substr(1))[0];break;
+						default:
+							el=document.getElementsByTagName(id)[0];
+					}
 					
 					if(el)
 						watchstyle(el,prop,cssvar);
