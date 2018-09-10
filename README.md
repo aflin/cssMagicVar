@@ -26,4 +26,4 @@ Usage:
 }
 ```
 
-all .myotherdivs width will be dynamically updated to be the same as #mydiv, even as #mydiv changes.
+all .myotherdivs will be dynamically updated to have the same width as #mydiv, even as #mydiv width changes.
