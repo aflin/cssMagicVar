@@ -17,7 +17,7 @@ Usage:
 }
 ```
 
---box1width will contain the width of #mydiv
+--box1width will be set to the width of #mydiv.
 
 ## Add the variable to another css declaration:
 ```
